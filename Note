@@ -1,0 +1,23 @@
+Case 1: every project for the first time, once:
+1. Go to the github and create new repo
+2. go to your localhost; inside of your root dir of your project, open termin there
+3. run `git init`, initialize the git so that we can run git commands
+4. run `git add` for adding all the new files and folders to the index or user specific file or folder name instead of . to add that file only in the index
+5. run `git commit -m' write some message here"`
+6. copy 3 lines of codes from github,
+- setting up the remote address
+- making default branch
+- send code to the github
+git config --global user.email "itsora7@gmail.com"
+git config --global user.name "Arjun Kumar Shrestha"
+
+case 2: after first push
+1. git add .
+2. git commit -m "the message"
+3. git push
+- git status
+- ls
+- ls -a
+- git branch > show all the branches
+- git checkout <branch name> > Create new branch
+- git branch test
